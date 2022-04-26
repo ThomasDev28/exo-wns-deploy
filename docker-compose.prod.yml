@@ -9,7 +9,7 @@ services:
 
     # To replace with the correct path of your server image
 
-    image: dockerhub-username/exo-wns-deploy_server
+    image: tdashh/exo-wns-deploy_server
 
     command: sh -c "npm run build && npm run prod"
 
@@ -33,7 +33,7 @@ services:
 
     # To replace with the correct path of your client image
 
-    image: dockerhub-username/exo-wns-deploy_client
+    image: tdashh/exo-wns-deploy_client
 
     command: sh -c "npm run build"
 
