@@ -11,3 +11,10 @@
 2022/04/26 09:28:03 [error] 31#31: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.27.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8001"
 2022/04/26 09:29:08 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.27.0.4:5000/graphql", host: "localhost:8000", referrer: "http://localhost:8000/"
 2022/04/26 09:29:11 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.27.0.1, server: , request: "POST /graphql HTTP/1.1", upstream: "http://172.27.0.4:5000/graphql", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/04/26 13:31:39 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2022/04/26 13:31:39 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2022/04/26 13:31:39 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2022/04/26 13:31:40 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2022/04/26 13:31:41 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2022/04/26 13:31:43 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
+2022/04/26 13:31:47 [emerg] 1#1: host not found in upstream "server" in /etc/nginx/nginx.conf:10
